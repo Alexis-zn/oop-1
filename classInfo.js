@@ -22,11 +22,11 @@ class Human {
   }
 }
 // Function with 2 objects as parameters, to return the array with the most elements.  
-  mostSkilledDev(person) {
-    if(this.language.length > person.language.length){
+  mostSkilledDev(human) {
+    if(this.language.length > human.language.length){
     return this.firstName
-  }else if(person.language.length > this.language.length) {
-    return person.firstName
+  }else if(human.language.length > this.language.length) {
+    return human.firstName
   } else {
     return "draw"
   }
