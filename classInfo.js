@@ -22,18 +22,17 @@ class Human {
   }
 }
 // Function with 2 objects as parameters, to return the array with the most elements.  
-// Not FINISHED /!\  
-  mostSkilledDev() {
-    if(this.language.length > this.language.length){
+  mostSkilledDev(person) {
+    if(this.language.length > person.language.length){
     return this.firstName
-  }else if(this.language.length > this.language.length) {
-    return this.firstName
+  }else if(person.language.length > this.language.length) {
+    return person.firstName
   } else {
-    return Draw
+    return "draw"
   }
 }
-
 }
+
 // All the var, instance of 'class Human' .
 const alice = new Human('Alice', 'Liddell', 28, ['Javascrip', 'Python', 'Php'] )
 const bob = new Human('Bob', 'Lemon', 30, ['C++', 'Solidity', 'Vyper', 'Golang'])
@@ -41,3 +40,4 @@ const charlie = new Human('Charlie', 'Charlot', 8, ['HTML', 'CSS'])
 
 alice.printInfo()
 console.log(charlie.canVote())
+console.log(charlie.mostSkilledDev(alice))
