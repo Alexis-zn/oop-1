@@ -58,4 +58,4 @@ const mostSkilledDev = (obj1, obj2) => {
     return Draw
   }
 }
-console.log(mostSkilledDev(bob, alice))
+console.log(mostSkilledDev(bob, alice)) 
