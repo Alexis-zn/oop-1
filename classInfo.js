@@ -40,4 +40,4 @@ const charlie = new Human('Charlie', 'Charlot', 8, ['HTML', 'CSS'])
 
 alice.printInfo()
 console.log(charlie.canVote())
-console.log(charlie.mostSkilledDev(alice))
+console.log(charlie.mostSkilledDev(alice)) 
