@@ -46,7 +46,7 @@ const canVote = (obj) => {
 console.log(canVote(alice))
 console.log(canVote(bob))
 console.log(canVote(charlie))
-*/
+*/ 
 
 // Function with 2 objects as parameters, to return the array with the most elements.
 const mostSkilledDev = (obj1, obj2) => {
