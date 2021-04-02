@@ -33,7 +33,7 @@ printInfo(bob)
 printInfo(charlie)
 */
 
-// Function tthat return a boolean with a minimum number has a condition.
+// Function tthat return a boolean with a minimum number as a condition.
 const canVote = (obj) => {
   if(obj.age >= 18) {
     return true;
